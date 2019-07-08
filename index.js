@@ -6,10 +6,10 @@ const T = new Twit({
   access_token_secret: process.env.access_token_secret
 });
 
-T.post('statuses/update', { status: `I don show like shola 🤖 🌚 ` }, function(
+T.post('statuses/update', { status: `Hello world!` }, function(
   err,
   data,
   response
 ) {
-  //console.log(data);
+  console.log(data);
 });
