@@ -1,0 +1,27 @@
+{
+  "name": "edmundbot",
+  "version": "1.0.0",
+  "description": "personal bot for twitter",
+  "main": "index.js",
+  "scripts": {
+    "start": "node index.js",
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/Edmund1645/edmundbot.git"
+  },
+  "keywords": [
+    "twitter",
+    "twitterbot"
+  ],
+  "author": "edmund ekott",
+  "license": "MIT",
+  "bugs": {
+    "url": "https://github.com/Edmund1645/edmundbot/issues"
+  },
+  "homepage": "https://github.com/Edmund1645/edmundbot#readme",
+  "dependencies": {
+    "twit": "^2.2.11"
+  }
+}
