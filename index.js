@@ -59,7 +59,7 @@ stream.on('tweet', tweet => {
     Twitter.reply(tweet, `${getEmoji()}`);
   }
 
-  // like and retweet if bot is mentioned
+  // like and retweet if bot is mentioned (test)
   if (
     tweet.entities.user_mentions.includes(
       tweet.entities.user_mentions.find(obj => obj.id == bot.id)
