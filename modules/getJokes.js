@@ -7,8 +7,7 @@ function getCategory() {
 }
 
 const url = `https://sv443.net/jokeapi/category/${getCategory()}?blacklistFlags=nsfw,religious,political`;
-const data = fetch(url);
-data
+fetch(url)
   .catch(err => console.log(err))
   .then(res => res.json())
   .then(joke => {
