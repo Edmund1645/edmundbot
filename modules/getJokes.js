@@ -18,7 +18,7 @@ function getJoke() {
           ? '#programing #programmingJokes #techhumor'
           : '#jokes #funny';
       function tweetJoke() {
-        if ((joke.type = 'single')) {
+        if (joke.type == 'single') {
           Twitter.tweet(`${joke.joke}
 
         ${category}`);
