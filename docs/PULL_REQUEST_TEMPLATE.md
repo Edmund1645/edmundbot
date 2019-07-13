@@ -6,16 +6,16 @@ assignees:
 
 ## What is this PR for?
 
-insert `*` to select
+-insert `x` to select-
 
-[*] Bug fix
-[] New Feature
-[] Suggestion
+- [x] Bug fix
+- [] New Feature
+- [] Suggestion
 
 ## Does this fix an existing issue(s)?
 
-[] Yes
-[] No
+- [] Yes
+- [] No
 
 ## If yes please reference issue(s) below
 
