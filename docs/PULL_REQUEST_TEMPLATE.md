@@ -12,12 +12,12 @@ insert `*` to select
 [] New Feature
 [] Suggestion
 
-## Does this fix an existing issue?
+## Does this fix an existing issue(s)?
 
 [] Yes
 [] No
 
-## If yes please reference issue below
+## If yes please reference issue(s) below
 
 -
 
